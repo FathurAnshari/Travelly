@@ -215,7 +215,6 @@ nav ul {
   color: white;
   background: rgba(19, 28, 39, 0.8);
   width: 30%;
-  height: 44rem;
   border-radius: 20px;
 }
 
@@ -300,9 +299,14 @@ footer {
     margin: auto;
   }
   footer {
+    min-height: 2vh;
     text-align: center;
   }
+  .footer-wrapper {
+    padding: 0rem;
+  }
   footer h5 {
-    padding-bottom: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
   }
 }
