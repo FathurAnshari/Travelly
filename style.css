@@ -252,6 +252,18 @@ footer {
   color: white;
   background: rgba(19, 28, 39, 1);
 }
+
+footer li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer img {
+  padding-right: 1rem;
+}
+
 .footer-wrapper {
   display: flex;
   padding: 2rem;
@@ -265,11 +277,14 @@ footer {
   flex: 1 1 40rem;
 }
 
+.footer-wrapper img {
+  vertical-align: middle;
+}
 .footer-wrapper ul {
   display: flex;
   list-style: none;
   flex: 1 1 40rem;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
